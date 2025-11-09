@@ -51,6 +51,52 @@
   <p>You can contact me via email: <strong>jagdishbhadane64@gmail.com</strong></p>
    <p>You can contact me via mobile no: <strong>7820832960</strong></p>
      <p>You can contact me via Address: <strong>At Post Sulwade tal Shindkheda Dist Dhule , At Maharashtra Pin code-425406</strong></p>
+  <h1>Contact Me</h1>
+<p class="meta">You can email or call me directly using the buttons below.</p>
+
+
+<div class="row" style="margin-bottom:10px">
+<!-- Mail button (mailto) -->
+<a class="btn btn-mail" href="mailto:jagdishbhadane64@gmail.com?subject=Hello%20Jagdish" id="emailBtn">
+<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 6.75A2.75 2.75 0 015.75 4h12.5A2.75 2.75 0 0121 6.75v10.5A2.75 2.75 0 0118.25 20H5.75A2.75 2.75 0 013 17.25V6.75z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+Send email
+</a>
+
+
+<!-- Call button (tel) -->
+<a class="btn btn-call" href="tel:+917820832960" id="callBtn">
+<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.86 19.86 0 01-3.07-8.63A2 2 0 014.09 2h3a2 2 0 012 1.72c.12 1.05.37 2.08.74 3.05a2 2 0 01-.45 2.11L9.91 9.91a16 16 0 006 6l1.03-1.03a2 2 0 012.11-.45c.97.37 2 .62 3.05.74A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+Call me
+</a>
+
+
+<!-- Copy contact quick action -->
+<button class="copy" id="copyBtn" title="Copy email and phone">Copy contact</button>
+</div>
+
+
+<div class="small">Email: <strong id="emailText">jagdishbhadane64@gmail.com</strong><br>Phone: <strong id="phoneText">+91 78208 32960</strong></div>
+</main>
+
+
+<script>
+// Copy button functionality
+document.getElementById('copyBtn').addEventListener('click', async function(){
+const email = document.getElementById('emailText').textContent.trim();
+const phone = document.getElementById('phoneText').textContent.trim();
+const text = `Email: ${email}\nPhone: ${phone}`;
+try{
+await navigator.clipboard.writeText(text);
+this.textContent = 'Copied ✓';
+setTimeout(()=> this.textContent = 'Copy contact', 1800);
+}catch(e){
+alert('Could not copy. Select and copy manually.');
+}
+});
+
+
+// Small UX note: on desktop clicking tel: may prompt with apps (Skype) while on mobile it will call directly.
+</script>
   
   <nav>
     <a href="index.html">Home</a> |
