@@ -1,2 +1,2 @@
-# Onlyprojectforntend
-html,css,javascript,react.js
+# Onlyprojectforntendtechnologies
+Html,Css, Boostrap,Javascript,React.js
