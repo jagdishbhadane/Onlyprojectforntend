@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myfirst webpage</title>
+</head>
+<body>
+    <h1>MY NAME IS JAGDISH</h1>
+        <img src ="C:\Users\jagdi\OneDrive\Desktop\MyPofessionalphoto.jpg" width="100px" alt=photo>
+        <p> java development is the process of creating software applications using the Java programming language.
+        Java is widely used because it is secure, reliable, and platform independent, which means Java programs
+        can run on any device that has a Java Virtual Machine (JVM). Java is commonly used to build web
+        applications, mobile apps, desktop software, and enterprise-level systems.</p>
+        <a href="#about"> About Us</a>
+         <a href="#Contact"> Contact Us</a>
+         <a href="#email">email</a>
+         <video controls  width="400">
+         <video src="C:\Users\jagdi\OneDrive\Desktop\HTML\MKV vs MP4 -Which Video Format is Better - Online Tech Tips (1080p, h264).mp4" type="video/mp4"></video>
+         </video>
+    
+</body>
+</html>
