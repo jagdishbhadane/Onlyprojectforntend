@@ -11,13 +11,14 @@
         <p> java development is the process of creating software applications using the Java programming language.
         Java is widely used because it is secure, reliable, and platform independent, which means Java programs
         can run on any device that has a Java Virtual Machine (JVM). Java is commonly used to build web
-        applications, mobile apps, desktop software, and enterprise-level systems.</p>
-        <a href="#about"> About Us</a>
-         <a href="#Contact"> Contact Us</a>
-         <a href="#email">email</a>
-         <video controls  width="400">
-         <video src="C:\Users\jagdi\OneDrive\Desktop\HTML\MKV vs MP4 -Which Video Format is Better - Online Tech Tips (1080p, h264).mp4" type="video/mp4"></video>
-         </video>
+        applications, mobile apps, desktop software, and enterprise-level systems.</p><br><br>
+        <video controls  width="200px">
+         <source src="sample-5s.mp4" type="video/mp4"></video>
+         </video><br><br>
+        <a href="#about">AboutUs</a><br>
+         <a href="#Contact"> ContactUs</a><br>
+         <a href="#email">email</a><br>
+         
     
 </body>
 </html>
