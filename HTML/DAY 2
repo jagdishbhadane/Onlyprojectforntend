@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage design</title>
+     
+</head>
+
+<body style="background-color: rgba(34, 94, 28, 0.889);">
+     <a href="https://www.w3schools.com">Click the link</a>
+    
+    
+    <h1>JAGDISH DINKAR BHADANE</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consequatur quisquam ipsam eaque quae dolore voluptatum et laboriosam fuga distinctio.</p>
+  <img src="images.jpg"  width="200px" alt="myphoto">   
+  <ol></ol>
+    <li>JAGDISH</li>
+    <li>DINKAR</li>
+    <li>BHADANE</li>
+  </ol>
+  <ul>
+    <li>RAM SIYA RAM</li>
+  </ul>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum dolorem perspiciatis distinctio culpa ex numquam vel sunt ut, consequuntur deserunt odio aspernatur ea est rem necessitatibus quaerat modi dolorum saepe nostrum, harum iusto libero. Nemo debitis non veritatis reprehenderit consequuntur ratione, cumque quia molestiae. Maxime odit velit iste facilis labore inventore sint est, rem ratione numquam nulla quas, aut accusantium porro! Officia laudantium corrupti modi dolor perferendis nisi assumenda blanditiis quae ullam ab beatae veniam molestias, voluptate, hic quam! Temporibus soluta amet eum debitis. Illo debitis eveniet cupiditate accusamus, eligendi temporibus ducimus laboriosam voluptatum placeat vel explicabo, earum provident.</p>
+<video controls width="320" height="240" autoplay>
+    <source src="sample-5s.mp4" type="video/mp4">
+</video>
+<video controls width="320" height="240" autoplay >
+    <source src="2MB_1080P_THETESTDATA.COM_mp4.mp4" type="video/mp4">
+</video>
+
+<audio controls="muted">
+    <source src="30_seconds.mp3" type="audio/mp3"></audio>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quod aliquid odio consequuntur error expedita quasi veniam, natus, provident doloremque fuga, quisquam non eius beatae mollitia ex dicta quis autem maxime dolorum doloribus iste dolor cumque ad? Harum id quibusdam iure illo nobis magnam, nisi, quae voluptatem tenetur quidem amet corrupti maxime adipisci explicabo, fugiat architecto eos perspiciatis doloremque rem repudiandae. Explicabo quaerat amet exercitationem id voluptatibus autem. Quo qui fugit ullam voluptatum, vitae odit maxime, ad quisquam possimus minus sint repellat, quaerat nostrum ab adipisci molestias ipsa et in. Reiciendis necessitatibus omnis sit. Quis architecto tempora necessitatibus eligendi sed.</p>
+   
+</audio>
+</body>
+</html>
